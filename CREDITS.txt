@@ -1,0 +1,3 @@
+johnpioc for backtesting function:
+
+https://github.com/johnpioc/johns-algothon-2025-backtester/blob/main/backtester.py
