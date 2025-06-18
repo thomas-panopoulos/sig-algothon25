@@ -1,9 +1,12 @@
-
+import matplotlib.pyplot as plt
+import pandas as pd
 import numpy as np
 
 ##### TODO #########################################
 ### IMPLEMENT 'getMyPosition' FUNCTION #############
 ### TO RUN, RUN 'eval.py' ##########################
+
+
 
 nInst = 50
 currentPos = np.zeros(nInst)
@@ -20,3 +23,5 @@ def getMyPosition(prcSoFar):
     rpos = np.array([int(x) for x in 5000 * lastRet / prcSoFar[:, -1]])
     currentPos = np.array([int(x) for x in currentPos+rpos])
     return currentPos
+
+    
